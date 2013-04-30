@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+xmlns:gap = "http://phonegap.com/ns/1.0"
+id = "it.abbondi.shok"
+version = "1.2.1"
+versionCode = "1">
+
+    <name>SHOK</name>
+
+    <description>
+        Applicazione eventi Milano
+    </description>
+
+    <author href="http://www.massimoabbondi.it" email="magenta@massimoabbondi.it">
+        Massimo Abbondi
+	</author>
+        
+        
+    <!-- ICONS -->
+        
+        
+    <!-- SPLASH SCREENS -->
+        
+    <gap:splash src="img/splash.png" /> <!-- default 320x480 pixels -->
+         
+    <!-- GENERAL PREFERENCES -->
+        
+    <!-- <preference name="phonegap-version" value="2.5.0" /> versione di phonegap usata, se non specificata usa quella di default (l'ultima disponibile) -->
+    <preference name="orientation" value="default" /> <!-- entrambe supportate -->
+    <preference name="target-device" value="universal" />
+    <preference name="fullscreen" value="true" /> <!-- toglie la barra in alto su iOS e Android -->
+	<preference name="splash-screen-duration" value="5000" />
+        
+    <!-- iOS PREFERENCES -->
+        
+    <preference name="webviewbounce" value="false" /> <!-- effetto bounce quando si raggiunge la cima o il fondo della pagina -->
+    <preference name="prerendered-icon" value="false" /> <!-- non applica effetto gloss all'icona -->
+    <preference name="stay-in-webview" value="false" /> <!-- if set to true, all links (even with target set to blank) will open in the app's webview -->
+    <preference name="ios-statusbarstyle" value="black-opaque" />
+    <preference name="exit-on-suspend" value="true" /> <!-- if set to false, app will continue to run on suspend -->
+    <preference name="show-splash-screen-spinner" value="true" /> <!-- if set to false, the spinner won't appear on the splash screen during app loading -->
+    <preference name="auto-hide-splash-screen" value="true" /> <!-- if set to false, the splash screen must be hidden using a JavaScript API -->
+        
+    <!-- ANDROID PREFERENCES -->
+        
+    <preference name="android-minSdkVersion" value="7" /> <!-- minimo Android 2.1 -->
+    <!-- <preference name="android-maxSdkVersion" value="17" /> massimo Android 4.2 -->
+    <preference name="android-installLocation" value="auto" />
+        
+    <!-- BLACKBERRY PREFERENCES -->
+        
+    <preference name="disable-cursor" value="false" />
+        
+    <!-- PHONEGAP API FEATURES PREFERENCES -->
+
+</widget>
