@@ -1,0 +1,161 @@
+@charset "UTF-8";
+.portrait h1 {
+}
+.landscape h1 {
+}
+body {
+	background: #000;
+}
+.logo {
+	padding: 10px;
+	text-align: center;
+}
+#map div[data-role="content"] {
+	position: absolute;
+	top: 42px;
+	bottom: 42px;
+	left: 0;
+	right: 0;
+}
+
+#gMap {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+}
+.thumbnail {
+	float: right;
+	display: block;
+	margin: 5px 0 15px 5px;
+	border: 2px #fff solid;
+	padding: 2px;
+}
+.clearboth {
+	clear: both;
+}
+.addr {
+	overflow: hidden;
+	position:relative;
+}
+h2 {
+	margin-top: 0;
+}
+.details {
+	display: block;
+	margin: 10px 0;
+}
+div[data-role="controlgroup"] {
+	clear:both;
+	text-align: center;
+}
+div[data-role="content"] {
+	padding-bottom: 40px;
+}
+#loading {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color:rgba(0,0,0,.9);
+	z-index:9999;
+}
+.errorMsg {
+	position: absolute;
+	top: 0;
+	left: 10px;
+	z-index:9999;
+	padding: 5px;
+	background-color: rgba(0,0,0,.7);
+	display: none;
+}
+/* Uncomment this before compiling in order to cause the initial page to fade in
+@media only screen and (max-width: 800px) {
+	#home {
+		display: none;
+	}
+}
+*/
+
+
+/* PERSONALIZZAZIONI */
+
+.ui-btn-text {
+ 	font-size: 0.8em;	
+	line-height: 1em;
+}
+
+.evento-titolo {
+	font-size: 1em;
+	font-weight:bold;
+	color:#fff;	
+}
+
+.evento-tipo {
+	font-size: 0.8em;	
+	color:#ccc;	
+}
+
+.evento-dove {
+	font-size: 0.8em;
+	font-weight:bold;	
+	color:#fff;	
+}
+
+.evento-quando {
+	font-size: 0.8em;
+	color:#eaeaea;	
+}
+
+.descrizione {
+	font-family:"Helvetica Neue", "Helvetica Neue Light", "Helvetica Neue UltraLight","Arial",sans-serif;
+	font-size:0.8em;
+	color:#ddd;	
+}
+
+.addr h2 {
+	font-family:"Helvetica Neue", "Helvetica Neue Light", "Helvetica Neue UltraLight","Arial",sans-serif;
+	color: #ddd;
+	font-size:1.2em;	
+}
+
+.addr p {
+	font-family:"Helvetica Neue", "Helvetica Neue Light", "Helvetica Neue UltraLight","Arial",sans-serif;
+	color: #ddd;
+	font-size:0.8em;	
+}
+
+.gm-iw {
+	color:#000;	
+}
+
+
+/* FACEBOOK */
+
+#social-buttons {
+    height: 300px;
+    transition:             opacity 1000ms ease;
+        -moz-transition:    opacity 1000ms ease;
+        -ms-transition:     opacity 1000ms ease;
+        -o-transition:      opacity 1000ms ease;
+        -webkit-transition: opacity 1000ms ease;
+    width: 90px;
+}
+
+.fb-like,
+.g-plusone-frame {
+    margin: 10px 0 10px 3px;   
+}
+
+.g-plusone-frame {
+    display: inline-block;
+}
+
+.twitter-share-button {
+    margin: 10px 0;
+}
+
+
+
